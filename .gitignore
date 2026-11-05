@@ -1,0 +1,45 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Testing and code quality tools
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Credentials and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+
+# Logs
+*.log
+
+# IDE configuration
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
